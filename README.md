@@ -5,7 +5,7 @@ To include this apps, you have to add some lines to the file
 `device/[vendor]/[model]/[model].mk`
 
 The lines to add are:
-`#KBDapps
+```
+#KBDapps
 PRODUCT_COPY_FILES += \
     packages/apps/KBDapps/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk`
-    
